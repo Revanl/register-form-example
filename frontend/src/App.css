@@ -1,0 +1,175 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color-scheme: auto;
+}
+
+body {
+	background-image: url('./assets/art.jpg');
+	background-size: cover;
+}
+
+.input-group {
+	margin-bottom: 50px;
+	padding: 20px 0;
+	position: relative;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+.input-group-heading {
+	background-color: rgb(108, 211, 108);
+	padding:5px;
+	position: absolute;
+	top: -15px;
+	left: 25px;
+	color: white;
+	border-radius: 3px;
+}
+
+.grid-container {
+	display: grid;
+  gap: 20px;
+  padding: 10px;
+	grid-template-columns: 1fr 1fr 1fr
+}
+
+input, select, textarea, .file-container {
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 30px 10px 0;
+	text-indent: 20px;
+	margin: 10px auto;
+	width: 90%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+textarea {
+	height:150px;
+}
+
+select option {
+	color: black;
+}
+
+.file-container {
+	position: relative;
+	padding: 5px 0;
+	text-align: left;
+	caret-color: transparent;
+}
+
+.file-upload-trigger {
+	cursor: pointer;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.input-container {
+	position: relative;
+	width: 300px;
+}
+
+.display-inline-input {
+  background: rgba(0, 0, 0, 0.3);
+}
+.display-inline-input .input-container {
+  display: inline; 
+  margin: 0 5px;
+}
+.display-inline-input input {
+  width: auto;
+}
+
+input[type=color] {
+  padding: 0;
+}
+
+.input-label {
+
+}
+
+.input-tooltip {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: lightblue;
+	z-index: 25px;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border-radius: 100%;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: bottom;
+	font-weight: bold;
+	cursor: default;
+}
+
+.file-upload-btn-img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+}
+
+.image-preview {
+	border: 1px solid black;
+	margin-top: 10px;
+	height: 80%;
+	width: 80%;
+}
+
+.submit-btn {
+	width: 100%;
+	background-color: rgb(108, 211, 108);
+	border-radius: 3px;
+  color: white;
+}
+.bg-white {
+	background-color: white;
+}
+.text-black {
+	color: black;
+}
+
+.alert {
+  border-radius: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 50%;
+  color: white;
+}
+
+.alert-error {
+
+  background-color: red;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.close-btn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: black;
+}
